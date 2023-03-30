@@ -1,0 +1,29 @@
+/* p{
+    background-color: #900;color:#fff;
+
+} */
+
+/* #texto-p {
+    background-color: #fff000;color:#0000;
+} */
+
+.formatacao{
+    background-color: #900;color:#fff;
+}
+
+p.formatacao {
+    margin: 0 36%;
+    text-align: center;
+    display: inline;
+    background-color: black;
+    color: aqua;
+}
+
+#texto-p{
+    font-size: 32px;
+    color: crimson;
+}
+
+div.formatacao p{
+    letter-spacing: 20px;
+}
