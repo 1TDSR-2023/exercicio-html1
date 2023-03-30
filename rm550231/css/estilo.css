@@ -1,4 +1,36 @@
-p{
+/* p{
     background-color: #900;
     color: #fff;
+} */
+
+/* p{
+    background-color: #900;
+    color: #fff;
+}
+
+#texto-teste {
+    background-color: #fff000;
+    color: #000;
+} */
+
+.formatação{
+    background-color: #fff000;
+    color: #000;
+}
+
+p.formatação {
+    margin: 0 16%;
+    text-align: center;
+    display: inline;
+    background-color: #000;
+    color: aqua;
+}
+
+#texto-teste{
+    font-size: 32px;
+    color: chartreuse;
+}
+
+div.formatação p{
+    letter-spacing: 20px;
 }
