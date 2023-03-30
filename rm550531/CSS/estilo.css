@@ -1,10 +1,4 @@
-/* p{
-
-    background-color: #900;
-    color: #fff;
-} */
-
-#texto-p{
+/* #texto-p{
     background-color: rgb(151, 204, 6);
 color: #fff;
 }
@@ -12,5 +6,25 @@ color: #fff;
 p{
     background-color: #900;
 color: #fff;
+} */
+
+.formatacao{
+    background-color: rgb(151, 204, 6);
+    color: #fff;
+    }
+
+p.formatacao {
+    text-align: center;
+    display: inline;
+    color: aqua;
+    background-color: black;
 }
 
+#texto-p{
+    font-size: 34px;
+    color: chartreuse;
+}
+
+div.formatacao p{
+    letter-spacing: 20px;
+}
