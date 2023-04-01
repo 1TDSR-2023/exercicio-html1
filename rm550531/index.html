@@ -4,43 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Layout</title>
-
-    <!--  <style>
-
-        p{
-            background-color: #900;
-            color: #fff;
-        }
-
-    </style>
--->
+    <title>MEU SITE</title>
 
     <link rel="stylesheet" href="./CSS/estilo.css" />
   </head>
 
   <body>
-    <header>
-      <h1>MEU SITE</h1>
-      <nav>
-        <ul>
-          <li><a href="#">GAMES</a></li>
-          <li><a href="#">MOBILE</a></li>
-          <li><a href="#">TECH</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div id="container">
+      <header class="cabecalho">
+        <h1>MEU SITE</h1>
+        <nav>
+          <ul>
+            <li><a href="./games.html">GAMES</a></li>
+            <li><a href="./mobile.html">MOBILE</a></li>
+            <li><a href="./tech.html">TECH</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <div>
-      <h2 class="formatacao">EXEMPLO DE CSS</h2>
+      <section class="conteudo">
+        <h2>GAMES</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo animi
+          error ut nam deserunt quaerat repellat reprehenderit laboriosam
+          explicabo delectus?
+        </p>
+        <h2>MOBILE</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta non
+          recusandae at voluptatem quo asperiores laborum. Illo obcaecati
+          debitis accusamus.
+        </p>
+        <h2>TECH</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, nobis
+          cupiditate. Quaerat laboriosam assumenda voluptatibus, nostrum
+          obcaecati sapiente? Error, est.
+        </p>
+      </section>
 
-      <h3 class="formatacao">CSS-EXTERNO COM SELETOR ID</h3>
-      <p id="texto-p" class="formatacao">Texto do parágrafo!</p>
-      <p class="formatacao">Lorem ipsum dolor sit amet.</p>
-      <div class="formatacao">
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </div>
+      <footer class="rodape">
+        <p>Todos os direitos reservados $copy - 2023</p>
+      </footer>
     </div>
   </body>
 </html>
