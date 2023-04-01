@@ -1,36 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
-body{
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-#container{
-    margin: 0;
-    padding: 0.5rem;
-    width: 98.7%;
-    height: 55rem;
-    background-color: rgb(18, 240, 240);
+.cabecalho > h1{
+    width: 270px;
+    height: 200px;
+    background-color: #d9d9d9;
+    text-align: center;
+    padding: 70px 10px 0 0;
+    font-size: 50px;
 }
-header{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-around;
+.cabecalho > nav{
+    float: right;
 }
-nav{
-    display: flex;
-    justify-content: center;
-}
-ul{
-    display: flex;
-}
-li{
-    display: flex;
-}
-a{
-    text-decoration: none; 
-}
-h1{
-    margin-top: 5rem;
-    display: flex;
-    justify-content: center;
+
+.conteudo{
+    clear: both;
 }
