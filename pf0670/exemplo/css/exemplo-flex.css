@@ -21,7 +21,15 @@ body{
     /* flex-direction: column-reverse; */
     /* flex-wrap: wrap; */
     /* flex-wrap: nowrap; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
     flex-direction: row;
+    justify-content: center;
+    
 }   
 
 .div-filha{
