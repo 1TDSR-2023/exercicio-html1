@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.cabecalho > h1{
+.cabecalho > h1 {
     width: 300px;
     height: 200px;
     background-color: rgb(189, 194, 199);
@@ -18,16 +18,16 @@
     float: right;
 }
 
-.cabecalho > nav ul{
+.cabecalho > nav ul {
     list-style: none;
 }
 
-.cabecalho > nav ul li{
+.cabecalho > nav ul li {
     display: inline-block;
     padding: 0 10px;
 }
 
-.cabecalho > nav ul li a{
+.cabecalho > nav ul li a {
     text-decoration: none;
     color: black;
     font-weight: 700;
@@ -40,6 +40,6 @@
     padding: 70px 10px 0 0;
 }
 
-.conteudo{
+.conteudo {
     clear: both;
 }
