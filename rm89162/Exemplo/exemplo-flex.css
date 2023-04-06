@@ -11,9 +11,11 @@ body {
 }
 
 .div-pai {
+    height: 50%;
     display: flex;
     border: 2px solid #ff0000;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -27,16 +29,22 @@ body {
 
 .box-1 {
     background-color: blue;
+    flex-grow: 1;
+    flex-basis: 500px;
 }
 
 .box-2 {
     background-color: greenyellow;
+    flex-grow: 2;
+    flex-shrink: 3;
 }
 
 .box-3 {
     background-color: cornflowerblue;
+    flex-grow: 4;
 }
 
 .box-4 {
     background-color: coral;
+    flex-grow: 2;
 }
