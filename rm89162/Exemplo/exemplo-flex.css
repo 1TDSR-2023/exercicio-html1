@@ -13,7 +13,7 @@ body {
 .div-pai {
     display: flex;
     border: 2px solid #ff0000;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
