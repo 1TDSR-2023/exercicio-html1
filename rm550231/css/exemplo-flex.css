@@ -14,6 +14,8 @@ body{
 .div-pai{
     display: flex;
     border: 2px solid #f00;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .div-filha{
@@ -29,11 +31,12 @@ body{
 }
 
 .box-2{
-    background-color: chartreuse;
+    background-color: green;
 }
 .box-3{
-    background-color: skyblue;
+    background-color: #f00;
 }
 .box-4{
-    background-color: darkblue;
+    background-color: yellow;
 }
+
