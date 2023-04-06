@@ -22,7 +22,13 @@
     /* flex-direction: column-reverse; */
     flex-direction: row;
     /* flex-wrap: wrap; */
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+     justify-content: center;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
 }
 
 .div-filha{
