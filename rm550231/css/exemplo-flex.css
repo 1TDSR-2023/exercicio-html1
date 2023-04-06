@@ -16,6 +16,7 @@ body{
     border: 2px solid #f00;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .div-filha{
