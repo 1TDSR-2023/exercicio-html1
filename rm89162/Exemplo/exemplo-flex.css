@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 100%;
+    min-width: 100%;
     max-width: 1440px;
     height: 1024px;
 }
@@ -14,6 +14,7 @@ body {
     display: flex;
     border: 2px solid #ff0000;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .div-filha {
