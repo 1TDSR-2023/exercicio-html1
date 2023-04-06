@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* BASE PARA O FLEXBOX */body{
+    width: 100%;
+    max-width: 1440px;
+    height: 1024px;
+}
+/* BASE PARA O FLEXBOX */.div-pai{
+    display: flex;
+    border: 2px solid #ff0000;
+    flex-direction: row;
+    /*justify content: space between;*/
+    /**/
+    flex-direction: row;
+    justify-content: center;
+}
+.div-filha{
+    text-align: center;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    padding: 2.5% 0;
+}
+.box-1{
+    background-color: blue;
+}
+.box-2 {
+    background-color: blueviolet;
+}
+.box-3 {
+    background-color: chocolate;
+}
+.box-4 {
+    background-color: crimson;
+}
