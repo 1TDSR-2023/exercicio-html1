@@ -18,8 +18,11 @@ body{
     /*flex-direction: row;*/
     /*flex-direction: row-reverse;*/
     /*flex-direction: column-reverse;*/
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .div-filha{
