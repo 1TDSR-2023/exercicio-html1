@@ -8,32 +8,38 @@ body {
     max-width: 1440px;
     height: 1024px;
 } /* BASE PARA O FLEXBOX */
-.div-pai{
+.div-pai {
     display: flex;
     border: 2px solid #ff0000;
-    flex-direction: row;
     /*flex-direction: row-reverse;*/
     /*flex-direction: column;*/
     /*flex-direction: column-reverse;*/
-    flex-wrap: wrap;
-
+    /*flex-wrap: wrap;*/
+    /*flex-wrap: nowrap;*/
+    /*justify-content: flex-start;*/
+    /*justify-content: flex-end;*/
+    /*justify-content: space-around;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-evenly;*/
+    flex-direction: row;
+    justify-content: center;
 }
-.div-filha{
+.div-filha {
     text-align: center;
     color: #fff;
     width: 100px;
     height: 100px;
     padding: 2.5% 0;
 }
-.box-1{
+.box-1 {
     background-color: blue;
 }
-.box-2{
+.box-2 {
     background-color: blueviolet;
 }
-.box-3{
+.box-3 {
     background-color: chocolate;
 }
-.box-4{
+.box-4 {
     background-color: crimson;
 }
