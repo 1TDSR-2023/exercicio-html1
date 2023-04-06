@@ -13,11 +13,22 @@ body {
 .div-pai {
     display: flex;
     border: 2px solid red;
-    flex-direction: row;
+    
     /*flex-direction: row-reverse;
     flex-direction: column;
-    flex-direction: column-reverse;*/
+    flex-direction: column-reverse;
     flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: flex-start;
+    justify-content: center
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;*/
+    flex-direction: row;
+    justify-content: center;
+    
 }
 
 .div-filha {
