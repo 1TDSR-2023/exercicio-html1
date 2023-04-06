@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    position: absolute;
+    width: 1439.94px;
+    height: 251px;
+    left: 0px;
+    top: 0px;
+  }
+  h1 {
+    width: 419px;
+    height: 109px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 109px;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+    gap: 10px;
+  
+    position: absolute;
+    width: 411px;
+    height: 149px;
+    left: 0px;
+    top: 0px;
+  
+    background: #d9d9d9;
+  }
+  
+  .um {
+    width: 194px;
+    height: 66px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 66px;
+  
+    color: #000000;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    gap: 8.61px;
+  
+    position: absolute;
+    width: 211px;
+    height: 149px;
+    left: 765px;
+    top: 0px;
+  
+    background: #d9d9d9;
+  }
+  
+  .dois {
+    width: 194px;
+    height: 66px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 66px;
+  
+    color: #000000;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    gap: 8.61px;
+  
+    position: absolute;
+    width: 211px;
+    height: 149px;
+    left: 1025px;
+    top: 0px;
+  
+    background: #d9d9d9;
+  }
+  
+  .tres {
+    width: 194px;
+    height: 66px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 66px;
+  
+    color: #000000;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    gap: 8.61px;
+  
+    position: absolute;
+    width: 211px;
+    height: 149px;
+    left: 1285px;
+    top: 0px;
+  
+    background: #d9d9d9;
+  }
+  
+  a {
+    text-decoration: none;
+  }
