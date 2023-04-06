@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    max-width: 1440px;
+    height: 1024px;
+}
+
+.div-pai{
+    display: flex;
+    border: 2px solid #ff0000;
+    flex-direction: column;
+}
+
+.div-filha{
+    text-align: center;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+    padding: 2.5% 0;
+}
+
+.box-1{
+    background-color: blue;
+}
+
+.box-2{
+    background-color: blueviolet;
+}
+
+.box-3{
+    background-color: chocolate;
+}
+
+.box-4{
+    background-color: crimson;
+}
+
