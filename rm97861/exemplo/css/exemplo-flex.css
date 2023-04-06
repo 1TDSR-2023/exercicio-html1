@@ -12,9 +12,13 @@ body {
 
 .div-pai {
   display: flex;
+  width: 100%;
+  height: 90%;
   border: 2px solid red;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .div-filha {
@@ -26,17 +30,21 @@ body {
 }
 
 .box-1 {
+  flex-grow: 1;
   background-color: blue;
 }
 
 .box-2 {
+  flex-grow: 3;
   background-color: blueviolet;
 }
 
 .box-3 {
+  flex-grow: 2;
   background-color: chocolate;
 }
 
 .box-4 {
+  flex-grow: 3;
   background-color: crimson;
 }
