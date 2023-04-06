@@ -16,6 +16,13 @@
 .div-pai{
     display: flex;
     border: 2px solid #f00;
+    /*flex-direction: row;*/
+    /*flex-direction: row-reverse;*/
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    flex-wrap: nowrap;
 }
 
 .div-filha{
